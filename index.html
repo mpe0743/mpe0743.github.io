@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Customizing top browser tab -->
+    <title>Breakfast Delivery</title>
+    <link rel='icon' href='favicon.png' type='image/x-icon'/ >
+
+    <!-- Pasted in below from Bootstrap for CSS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- Link to my CSS overrides -->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
     <div class="container">
+        
+        <!-- Navigation Bar -->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+
+        <!-- Home page header jumbotron -->
+        <div class="jumbotron">
+            <h1 class="display-41"> 
+                <p>Get</p>
+                <p>Breakfast</p>
+                <p>Delivered</p>
+            </h1>
+            <p class="lead">Don't let the snooze button make you skip the day's most important meal. </p>
+            <hr class="my-4">
+            <p>Learn more about our order options below.</p>
+            <a class="btn btn-danger btn-lg" href="#" role="button">Packages</a>
+          </div>
+
         <div class="row">
             <div class="col-12">
                 <h1>Welcome to my website</h1>
